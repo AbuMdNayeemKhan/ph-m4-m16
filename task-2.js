@@ -5,7 +5,14 @@
 // **Input:**
 // </br>
 // The first line of the input is the marks of the five subjects mentioned above, respectively.
-
+var mathematics = 95;
+var biology = 97;
+var chemistry = 90;
+var physics = 85;
+var bangla = 92;
+var totalMarks = mathematics + biology + chemistry + physics + bangla;
+var avgMarks = (totalMarks / 5);
+console.log("Avg Marks is: " + avgMarks + "%");
 // **Output:**
 // </br>
 // Print the result in 2 decimal places.
