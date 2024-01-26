@@ -12,7 +12,8 @@ var physics = 85;
 var bangla = 92;
 var totalMarks = mathematics + biology + chemistry + physics + bangla;
 var avgMarks = (totalMarks / 5);
-console.log("Avg Marks is: " + avgMarks + "%");
+var avgMarksFixed = avgMarks.toFixed(2);
+console.log("Avg Marks is: " + avgMarksFixed + "%");
 // **Output:**
 // </br>
 // Print the result in 2 decimal places.
