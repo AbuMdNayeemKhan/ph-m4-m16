@@ -8,7 +8,8 @@
 // Print the remainder.
 
 // Sample Input:
-// 119
+var theNumber = 119;
 
 // Sample Output:
-// 5
+var modulasNumber = (theNumber % 5);
+console.log(modulasNumber);
